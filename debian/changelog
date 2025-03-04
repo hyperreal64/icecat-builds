@@ -1,0 +1,246 @@
+icecat (102.14.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 102.14.0.
+  * debian/rules: Add fix from AUR build (thanks cysp74)
+
+ -- losuler <losuler@posteo.net>  Sun, 06 Aug 2023 04:50:04 +0000
+
+icecat (102.12.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 102.12.0.
+
+ -- losuler <losuler@posteo.net>  Tue, 06 Jun 2023 02:35:19 +0000
+
+icecat (102.11.0-5) unstable; urgency=medium
+
+  * debian/rules: Fix DEB_HOST_ARCH for aarch64 is arm64.
+
+ -- losuler <losuler@posteo.net>  Sat, 27 May 2023 13:31:28 +0000
+
+icecat (102.11.0-4) unstable; urgency=medium
+
+  * debian/rules: Fix filter logic.
+
+ -- losuler <losuler@posteo.net>  Sat, 27 May 2023 08:03:03 +0000
+
+icecat (102.11.0-3) unstable; urgency=medium
+
+  * debian/rules: Fix aarch64 builds.
+
+ -- losuler <losuler@posteo.net>  Sat, 27 May 2023 07:00:36 +0000
+
+icecat (102.11.0-2) unstable; urgency=medium
+
+  * debian/rules: Fix ppc64el builds.
+
+ -- losuler <losuler@posteo.net>  Tue, 23 May 2023 02:20:14 +0000
+
+icecat (102.11.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 102.11.0.
+
+ -- losuler <losuler@posteo.net>  Fri, 19 May 2023 07:29:25 +0000
+
+icecat (102.10.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 102.10.0.
+
+ -- losuler <losuler@posteo.net>  Fri, 19 May 2023 19:25:00 +0000
+
+icecat (102.5.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 102.5.0.
+
+ -- losuler <losuler@posteo.net>  Wed, 30 Nov 2022 11:44:48 +0000
+
+icecat (91.13.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.13.0.
+
+ -- losuler <losuler@posteo.net>  Sun, 04 Sep 2022 14:46:18 +1000
+
+icecat (91.12.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.12.0.
+
+ -- losuler <losuler@posteo.net>  Tue, 26 Jul 2022 14:00:50 +0000
+
+icecat (91.11.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.11.0.
+
+ -- losuler <losuler@posteo.net>  Wed, 29 Jun 2022 19:51:18 +1000
+
+icecat (91.10.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.10.0.
+
+ -- losuler <losuler@posteo.net>  Sat, 11 Jun 2022 14:44:59 +0000
+
+icecat (91.9.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.9.0.
+
+ -- losuler <losuler@posteo.net>  Fri, 06 May 2022 23:28:59 +1000
+
+icecat (91.8.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.8.0.
+
+ -- losuler <losuler@posteo.net>  Wed, 06 Apr 2022 17:08:40 +1000
+
+icecat (91.7.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.7.0.
+
+ -- losuler <losuler@posteo.net>  Tue, 08 Mar 2022 17:58:47 +1100
+
+icecat (91.6.1-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.6.1.
+
+ -- losuler <losuler@posteo.net>  Mon, 07 Mar 2022 19:23:25 +1100
+
+icecat (91.6.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.6.0.
+
+ -- losuler <losuler@posteo.net>  Fri, 11 Feb 2022 21:48:12 +1100
+
+icecat (91.5.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.5.0.
+
+ -- losuler <losuler@posteo.net>  Fri, 14 Jan 2022 11:23:17 +1100
+
+icecat (91.4.0-1) unstable; urgency=medium
+
+  * debian/rules: Update to 91.4.0.
+
+ -- losuler <losuler@posteo.net>  Tue, 28 Dec 2021 07:02:21 +1100
+
+icecat (91.3.0-1) UNRELEASED; urgency=medium
+
+  * debian/rules: Update to 91.3.0.
+  * debian/patches/build-directories.patch,
+  debian/patches/offline-sources.patch: Update patches for 91.3.0.
+  * debian/rules, debian/source/include-binaries: Add OBS service
+  to pull Firefox sources.
+  * debian/rules: Add build steps using mach instead of make.
+  * debian/control: Fix version of rustc being too old.
+
+ -- losuler <losuler@posteo.net>  Sat, 13 Nov 2021 09:56:39 +1100
+
+icecat (78.15.0-1) unstable; urgency=medium
+
+  * Update to 78.15.0.
+
+ -- losuler <losuler@posteo.net>  Thu, 07 Oct 2021 02:15:02 +1100
+
+icecat (78.14.0-1) unstable; urgency=medium
+
+  * Update to 78.14.0.
+
+ -- losuler <losuler@posteo.net>  Wed, 08 Sep 2021 22:11:50 +1000
+
+icecat (78.13.0-2) unstable; urgency=medium
+
+  * Update to latest upstream.
+  * debian/control: Add missing dependency needed in Debian 11.
+
+ -- losuler <losuler@posteo.net>  Tue, 07 Sep 2021 08:39:25 +1000
+
+icecat (78.13.0-1) unstable; urgency=medium
+
+  * Update to 78.13.0.
+
+ -- losuler <losuler@posteo.net>  Tue, 10 Aug 2021 18:38:45 +1000
+
+icecat (78.12.0-1) unstable; urgency=medium
+
+  * debian/icecat.desktop: Add localization.
+  * debian/control, debian/rules: Add missing configure options.
+  * debian/icecat.install, debian/icecat.links, debian/rules: Fix missing
+    desktop icons.
+  * debian/patches/build-directories.patch, debian/patches/series,
+    debian/rules: Include language packs.
+  * Update to 78.12.0.
+
+ -- losuler <losuler@posteo.net>  Wed, 21 Jul 2021 23:30:01 +1000
+
+icecat (78.11.0-1) unstable; urgency=medium
+
+  * Update to 78.11.0.
+
+ -- losuler <losuler@posteo.net>  Fri, 04 Jun 2021 17:27:10 +1000
+
+icecat (78.10.0-1) unstable; urgency=medium
+
+  * Update to 78.10.0.
+
+ -- losuler <losuler@posteo.net>  Tue, 20 Apr 2021 20:24:15 +1000
+
+icecat (78.9.0-1) unstable; urgency=medium
+
+  * Update to 78.9.0
+
+ -- losuler <losuler@posteo.net>  Tue, 23 Mar 2021 23:28:25 +1100
+
+icecat (78.8.0-1) unstable; urgency=medium
+
+  * debian/offline-sources.patch: Move updated patch to correct directory.
+  * Update to 78.8.0.
+
+ -- losuler <losuler@posteo.net>  Wed, 24 Feb 2021 21:36:14 +1100
+
+icecat (78.7.1-3) unstable; urgency=medium
+
+  * debian/patches/offline-sources.patch: Remove checkout (branch already in
+    additional source archive).
+  * debian/patches/offline-sources.patch: Unpack additional source archive
+    (compare-locales archive).
+
+ -- losuler <losuler@posteo.net>  Mon, 15 Feb 2021 14:52:02 +1100
+
+icecat (78.7.1-2) unstable; urgency=medium
+
+  * debian/patches/offline-sources.patch: Remove unneeded build dependency.
+
+ -- losuler <losuler@posteo.net>  Mon, 15 Feb 2021 13:09:31 +1100
+
+icecat (78.7.1-1) unstable; urgency=medium
+
+  * Update to 78.7.1.
+
+ -- losuler <losuler@posteo.net>  Sun, 14 Feb 2021 14:55:06 +1100
+
+icecat (78.7.0-1) unstable; urgency=medium
+
+  * Update to 78.7.0.
+
+ -- losuler <losuler@posteo.net>  Wed, 27 Jan 2021 22:58:48 +1100
+
+icecat (78.6.1-2) unstable; urgency=medium
+
+  * debian/rules: Fix i586 build failures.
+  * debian/rules: Disable verbose flags for builds.
+
+ -- losuler <losuler@posteo.net>  Wed, 13 Jan 2021 20:14:12 +1100
+
+icecat (78.6.1-1) unstable; urgency=medium
+
+  * Update to 78.6.1.
+
+ -- losuler <losuler@posteo.net>  Fri, 08 Jan 2021 17:03:28 +1100
+
+icecat (78.6.0-2) unstable; urgency=medium
+
+  * debian/icecat.desktop, debian/icecat.install: Add .desktop file.
+
+ -- losuler <losuler@posteo.net>  Tue, 05 Jan 2021 22:23:54 +1100
+
+icecat (78.6.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- losuler <losuler@posteo.net>  Sat, 19 Dec 2020 18:06:59 +1100
