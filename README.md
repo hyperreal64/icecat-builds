@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center">
-  <a href="https://github.com/losuler/icecat">
+  <a href="https://github.com/hyperreal64/icecat-builds">
     <img src="img/icecat.png" alt="logo" width="150" height="150">
   </a>
   <p align="center">
@@ -13,5 +13,7 @@
 </div>
 
 ## About
+
+> This is a fork of the repository at https://github.com/losuler/icecat , which appears to be unmaintained since August 2023.
 
 This is Debian packaging for [GNU IceCat](https://www.gnu.org/software/gnuzilla/). The latest release version of GNU IceCat is based on the outdated Firefox 60.7.0 ESR release, these builds are instead built from the latest commits from the GNU IceCat git repository at https://git.savannah.gnu.org/cgit/gnuzilla.git which follow the latest Firefox ESR releases.
