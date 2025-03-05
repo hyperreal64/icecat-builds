@@ -37,6 +37,6 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           branch: add-new-release
-          base: master
+          base: main
           title: "Add new release"
           body: "A new release of GNU IceCat has been detected."
