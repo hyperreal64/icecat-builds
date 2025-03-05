@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Get release version
-        run: echo "version=$(bash check_updates.sh --version-only | awk '{print $1}')" >> $GITHUB_ENV
+        run: echo "version=$(bash check-updates.sh --version-only | awk '{print $1}')" >> $GITHUB_ENV
       - name: Run build.sh
         run: /bin/sh build.sh
 

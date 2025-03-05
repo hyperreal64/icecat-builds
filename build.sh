@@ -11,7 +11,7 @@ DEBIAN_DIR="${ROOT_DIR}/icecat/debian"
 ICECAT_VERSION="115.20.0"
 
 # Install build dependencies
-apt install git gpg mercurial rename python3-jsonschema clang pkg-config libasound2-dev libpulse-dev curl cbindgen nodejs libpango1.0-dev unzip libxtst-dev libxdamage-dev libxcursor-dev libxcomposite-dev libxrandr-dev libx11-dev libxcb1-dev libx11-xcb-dev nasm libgtk-3-dev libdbus-glib-1-dev make m4
+sudo apt install git gpg mercurial rename python3-jsonschema clang pkg-config libasound2-dev libpulse-dev curl cbindgen nodejs libpango1.0-dev unzip libxtst-dev libxdamage-dev libxcursor-dev libxcomposite-dev libxrandr-dev libx11-dev libxcb1-dev libx11-xcb-dev nasm libgtk-3-dev libdbus-glib-1-dev make m4
 
 # Clone Icecat sources
 mkdir "$BUILD_DIR"
