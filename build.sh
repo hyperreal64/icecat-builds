@@ -7,7 +7,7 @@ GNUZILLA_GIT="git.savannah.gnu.org/git/gnuzilla.git"
 ROOT_DIR="${PWD}"
 BUILD_DIR="${ROOT_DIR}/build"
 INSTALL_PREFIX="${ROOT_DIR}/icecat/usr"
-DEBIAN_DIR="${ROOT_DIR}/icecat/DEBIAN"
+DEBIAN_DIR="${ROOT_DIR}/icecat/debian"
 ICECAT_VERSION="115.20.0"
 
 # Install build dependencies
@@ -61,8 +61,8 @@ icecat ($ICECAT_VERSION-1) unstable; urgency=medium
  -- hyperreal <hyperreal@moonshadow.dev> $CHANGELOG_DATE
 EOF
 
-cp -fv changelog.Debian changelog-tail
-cat changelog-head changelog-tail >changelog.Debian
+cp -fv changelog changelog-tail
+cat changelog-head changelog-tail >changelog
 rm -fv changelog-head changelog-tail
 cp -fv changelog "${INSTALL_PREFIX}/share/doc/icecat/"
 gzip --best -n "${INSTALL_PREFIX}/usr/share/doc/icecat/changelog"
