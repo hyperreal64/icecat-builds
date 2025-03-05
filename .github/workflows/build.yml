@@ -11,8 +11,24 @@ jobs:
 
       - name: Get release version
         run: echo "version=$(bash check-updates.sh --version-only | awk '{print $1}')" >> $GITHUB_ENV
-      - name: Run build.sh
-        run: /bin/sh build.sh
+
+      - name: Install build dependencies
+        run: /bin/sh build.sh install_deps
+
+      - name: Run ./makeicecat
+        run: /bin/sh build.sh make_icecat
+
+      - name: Build the Icecat program
+        run: /bin/sh build.sh build_icecat
+
+      - name: Prepare files for Debian package
+        run: /bin/sh build.sh prepare_deb
+
+      - name: Update the changelog
+        run: /bin/sh build.sh update_changelog
+
+      - name: Build the .deb package
+        run: /bin/sh build.sh build_deb
 
       - name: Release
         uses: actions/create-release@v1
