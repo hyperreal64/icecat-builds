@@ -15,7 +15,7 @@ sudo apt install git gpg mercurial rename python3-jsonschema clang pkg-config li
 
 # Clone Icecat sources
 mkdir "$BUILD_DIR"
-git clone "${GNUZILLA_GIT}" "${BUILD_DIR}/gnuzilla"
+git clone "https://${GNUZILLA_GIT}" "${BUILD_DIR}/gnuzilla"
 
 # Run makeicecat
 cd "${BUILD_DIR}/gnuzilla"
