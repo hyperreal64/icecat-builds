@@ -22,6 +22,7 @@ cd "${BUILD_DIR}/gnuzilla"
 ./makeicecat
 
 # Run configure script
+ls
 cd "output/icecat-${ICECAT_VERSION}"
 mkdir obj
 cd obj
